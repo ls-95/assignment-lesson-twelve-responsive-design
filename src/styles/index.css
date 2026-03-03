@@ -11,8 +11,8 @@ body {
 }
 
 h1 {
-  font-size: 84px;
-  line-height: 102px;
+  font-size: 5.25em;
+  line-height: 1.214;
 }
 
 main {
@@ -22,11 +22,16 @@ main {
 }
 
 .main-text {
-  max-width: 416px;
+  max-width: 26em;
   width: 100%;
 }
 
 main p {
-  font-size: 22px;
-  line-height: 34px;
+  font-size: 1.375em;
+  line-height: 1.5;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
 }
