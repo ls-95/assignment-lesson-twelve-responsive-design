@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/a8156b8a54.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
@@ -15,30 +19,39 @@
   </head>
   <body>
     <header>
-      <nav>
-        <div>
-          <p><a href="/">Head</a></p>
+      <div class="hero-section-text">
+        <div class="navbar">
+          <nav>
+            <div>
+              <p><a href="/" class="navbar-home">Head.</a></p>
+            </div>
+            <div>
+              <ul class="navbar-links">
+                <li><a href="/" class="navbar-works">Works</a></li>
+                <li><a href="/" class="navbar-services">Services</a></li>
+                <li><a href="/" class="navbar-contacts">Contacts</a></li>
+              </ul>
+            </div>
+          </nav>
         </div>
-        <div>
-          <ul>
-            <li><a href="/">Works</a></li>
-            <li><a href="/">Services</a></li>
-            <li><a href="/">Contacts</a></li>
-          </ul>
+        <div class="hero-section-information-container">
+          <div class="hero-section-information">
+            <div>
+              <h1>Musician</h1>
+              <p>
+                Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec.
+                Donec viverra eleifend lacus, vitae ullamcor.
+              </p>
+            </div>
+          </div>
+          <div class="arrow">
+            <i class="fa-solid fa-arrow-down"></i>
+          </div>
         </div>
-      </nav>
+      </div>
+      <div class="hero-section-img">
+        <img src="src/images/Image.svg" alt="Portrait of an musician." />
+      </div>
     </header>
-    <main>
-      <div class="main-text">
-        <h1>Musician</h1>
-        <p>
-          Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec
-          viverra eleifend lacus, vitae ullamcor.
-        </p>
-      </div>
-      <div>
-        <img src="src/images/Image.svg" alt="A portrait of a musician" />
-      </div>
-    </main>
   </body>
 </html>
