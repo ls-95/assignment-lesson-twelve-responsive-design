@@ -118,8 +118,12 @@ nav .navbar-links a:visited {
     justify-content: center;
   }
 
+  .navbar-home {
+    font-weight: bold;
+  }
+
   .hero-section-text {
-    max-width: 30em;
+    max-width: 60vw;
     width: 100%;
     margin: 0 auto;
   }
@@ -127,6 +131,7 @@ nav .navbar-links a:visited {
   .hero-section-information-container {
     display: flex;
     align-items: flex-end;
+    min-height: 40vh;
   }
 
   .arrow {
@@ -144,9 +149,9 @@ nav .navbar-links a:visited {
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   body {
-    max-width: 618px;
+    max-width: 80vw;
     width: 100%;
   }
 
@@ -155,13 +160,50 @@ nav .navbar-links a:visited {
     padding: 2.125em 0;
   }
 
+  .hero-section-information-container {
+    min-height: 50vh;
+  }
+
   .hero-section-information h1 {
     font-size: 4.5em;
     letter-spacing: -1.6px;
   }
 
-  .hero-section-text {
-    max-width: 30em;
+  .hero-section-img {
+    margin: 0 auto;
+    padding-top: 2em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
+
+  header {
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1em 0;
+  }
+
+  .navbar-links li {
+    display: none;
+  }
+
+  .hero-section-information-container {
+    max-width: 60vw;
     width: 100%;
+    margin: 0 auto;
+    min-height: 40vh;
+  }
+
+  .hero-section-information h1 {
+    font-size: 3em;
+    letter-spacing: -0.8px;
+  }
+
+  .hero-section-information p {
+    font-size: 1em;
+    line-height: 1.5;
   }
 }
