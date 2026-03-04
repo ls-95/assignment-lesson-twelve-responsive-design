@@ -145,7 +145,7 @@ nav .navbar-links a:visited {
   }
 
   .hero-section-img img {
-    width: 80%;
+    max-width: 80%;
   }
 }
 
